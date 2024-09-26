@@ -1,0 +1,159 @@
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height:1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+section{
+    padding:2% 0;
+}
+
+nav{
+    padding:2% 0;
+    line-height:1;
+}
+nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 1% 0;
+    border-radius:10px;
+    width: 10%;
+    color: #fff;
+}
+
+.orange{
+    margin-left: 10%;
+    background-color: #FF764E;
+}
+.blue{
+    margin: 0 20%;
+    background-color:#5ED3EB;
+}
+.yellow{
+    margin-right: 10%;
+    background-color:#FFCD69;
+}
+
+.top{
+    position: relative;
+}
+
+
+.left img{
+    border-radius: 50%;
+}
+
+.left, .right{
+    display:inline-block;
+}
+
+.left{
+    width: 20%;
+    margin: 0 2.5%;
+}
+
+
+.right{
+    width: 70%;
+    margin: 2% 3%;
+    position: absolute;
+    top:5%;
+    text-align:center;
+    padding: 0%;
+}
+
+.right p{
+    margin: 4% 3%;
+}
+
+.mid{
+    background-color:#DDB9A3;
+    text-align:center;
+    margin:2%;
+    color: white;
+    padding:1% 2%;
+}
+
+.body{
+    padding:0 35% 5% ;
+    text-align:center;
+}
+.body img{
+    padding:5% 0;
+    margin: 0 40%;
+    width: 20%;
+    display: block;
+}
+
+.body span{
+    font-weight: bold;
+}
+
+.heroImg
+{
+    height: 40vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+footer{
+    background-color:#F9E7DC;
+
+}
